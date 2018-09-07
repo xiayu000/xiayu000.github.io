@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Welcome to Xiaoyun Blog
 
-You can use the [editor on GitHub](https://github.com/xiayu000/xiayu000.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+大数据分析的无限深度神经网络方法
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### 深度神经网络
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1、深度神经网络是“多层结构、逐层学习”的深度学习方法。
 
-```markdown
-Syntax highlighted code block
+2、在大数据分析中使用的深度神经网络主要是前馈神经网络。即由第一层（输入层）流入，通过逐层（隐层）传递和映射，从最后一层（输出层）流出。
 
-# Header 1
-## Header 2
-### Header 3
+3、神经网络的一致逼近原理：对于任意一个非线性映射，一定能找到一个浅层网络和一个深度网络以任意精度逼近它。只要浅层网络的隐层神经元个数足够多或者深度网络足够深。
 
-- Bulleted
-- List
+4、深度神经网络突出的特征学习能力使其特别擅长解决基于分类的各种识别问题，如语音识别、图像识别等。
 
-1. Numbered
-2. List
+### 无限深度神经网络
 
-**Bold** and _Italic_ and `Code` text
+1、前馈网络的特点是同层神经元之间没有反馈连接，没有“时间参数”属性，所以深度神经网络擅长处理静态数据。
 
-[Link](url) and ![Image](src)
-```
+2、无限深度神经网络，是一种全互连的回复式神经网络，神经元之间存在反馈连接，将这种反馈结构在时间维度展开，随着时间的不断运行，网络可以“无限深”，称回复式神经网络为“无限深度网络”。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3、无限深度神经网络本质是一个动力学系统，能够处理动态数据，即与时间相关的数据。
 
-### Jekyll Themes
+### 总结与展望
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xiayu000/xiayu000.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+无限深度神经网络在处理时序数据方面具有巨大的潜力，在大数据分析预测任务中的强大计算能力日益显现。．随着“结合智能计算的大数据分析”成为大数据时代的研究热点，无限深度神经网络计算领域更多新的理论和方法将被提出，其应用效果也必将不断被刷新，推动大数据分析技术的发展和革新．
